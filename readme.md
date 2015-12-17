@@ -25,7 +25,6 @@ EM::run do
   end
 end
 ```
-<br>
 ### stop watching
 ```rb
   watcher = EM::FileWatcher.start_watch "*.rb" do |path, event|
